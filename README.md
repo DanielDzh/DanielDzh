@@ -65,7 +65,6 @@ we discuss the approach, split the work and review each other. What that looks l
 
 ---
 
-
 #### 🛠 Toolbox
 
 | | |
