@@ -7,8 +7,25 @@ live on the App Store and Google Play, a crypto wallet, and websites for compani
 charity foundation. I care about interfaces that feel fast and polished, and about
 codebases the next developer is happy to open.
 
-These days I build with an **AI-first workflow**, turning Claude Code into a disciplined
-pair programmer that works from specs, follows project rules and writes tests first.
+**AI is my everyday colleague.** I work side by side with Claude Code, and together we
+build projects of any size, from a weekend mobile game to a product heading for a paid launch.
+
+---
+
+#### 🤖 Working with AI
+
+I don't use AI as fancy autocomplete. I work with it the way I'd work with a teammate:
+we discuss the approach, split the work and review each other. What that looks like day to day:
+
+- 📝 **Specs and plans first.** We brainstorm a feature, write a design spec and a step-by-step plan, and only then write code
+- 🧪 **Test-driven.** Tests come first, and the agent implements until they pass
+- 🧠 **Project memory.** `CLAUDE.md` / `AGENTS.md` hold conventions, styling rules, git strategy and library versions
+- 🎨 **Figma → code** through the Figma MCP server
+- 📚 **Up-to-date docs** for any library through Context7, so no outdated APIs
+- 🌐 **Real-browser checks** with Playwright: the agent opens the page and checks the UI itself
+- 👥 **Custom subagents** for code review, QA (writes and runs tests) and research
+- ⚙️ **Custom skills** for commits in the team format, Docker deploys to a VPS, and git worktrees for running several agents in parallel
+- 🔒 **Secret scanning** of the full git history before any repo goes public
 
 ---
 
@@ -48,16 +65,6 @@ pair programmer that works from specs, follows project rules and writes tests fi
 
 ---
 
-#### 🤖 How I work with AI
-
-- **Spec → plan → code.** Every feature starts with a design spec and a
-  step-by-step implementation plan before any code is generated.
-- **Rules live in the repo.** `CLAUDE.md` / `AGENTS.md` pin conventions, styling rules,
-  git strategy and exact library versions, so the agent writes code that fits the project.
-- **Tests first, then review.** TDD with Jest / Vitest, feature branches and pull requests.
-  AI speeds up the typing, not the reviewing.
-
----
 
 #### 🛠 Toolbox
 
