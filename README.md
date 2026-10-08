@@ -59,6 +59,12 @@ we discuss the approach, split the work and review each other. What that looks l
   Heading to a public launch.
   *TypeScript · Node.js · grammY · OpenAI (gpt-4o-mini, Whisper) · Cartesia TTS · SQLite · Docker*
   **[→ Try the bot](https://t.me/talkmate_practice_bot)**
+- **[Anonymous Voting](https://github.com/DanielDzh/anonymous-voting)** — anonymous elections
+  for live events: people join by QR from their phones, vote in one of 22 themes (incl. 3D
+  mini-games: bowling, darts, hoops), and the results are revealed on the projector with an
+  animated 3D show. Only aggregate counts are stored, never who voted for whom.
+  *Next.js 16 · React 19 · TypeScript · Three.js · Web Audio · PostgreSQL (Neon) · Drizzle · Vercel*
+  **[→ Live demo](https://anonymous-voting-rouge.vercel.app)**
 - **[Wordle UA](https://github.com/DanielDzh/wordle-ukr)** — Wordle in Ukrainian for
   iOS and Android, built test-first and in the open, AI workflow included.
   *Expo · React Native · TypeScript · NativeWind · Reanimated · Jest + RNTL*
@@ -70,9 +76,10 @@ we discuss the approach, split the work and review each other. What that looks l
 | | |
 |---|---|
 | **Mobile** | React Native · Expo · Reanimated · NativeWind |
-| **Web** | Next.js · React · TypeScript · i18n · SCSS |
+| **Web** | Next.js · React · TypeScript · Tailwind CSS · i18n · SCSS |
+| **3D & motion** | Three.js · Web Animations · Web Audio |
 | **Testing** | Jest · React Native Testing Library · Vitest |
-| **Backend & infra** | Node.js · SQLite · Docker · VPS deployment |
+| **Backend & infra** | Node.js · PostgreSQL · Drizzle · SQLite · Docker · Vercel · VPS deployment |
 | **AI** | Claude Code · OpenAI API (structured outputs, Whisper) · TTS |
 
 ---
