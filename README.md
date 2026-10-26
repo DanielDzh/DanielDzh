@@ -68,6 +68,11 @@ we discuss the approach, split the work and review each other. What that looks l
 - **[Wordle UA](https://github.com/DanielDzh/wordle-ukr)** — Wordle in Ukrainian for
   iOS and Android, built test-first and in the open, AI workflow included.
   *Expo · React Native · TypeScript · NativeWind · Reanimated · Jest + RNTL*
+- **[Moodle Deadlines](https://github.com/DanielDzh/moodle-deadlines)** — every assignment
+  from every Moodle course on one page, from the most urgent to the furthest away: days-left
+  counters, "burning" deadlines, real submission status, course filters. A static site that
+  talks to Moodle straight from the browser, no backend.
+  *React 19 · TypeScript · Vite · Moodle Web Services · Vitest · Playwright · Cloudflare*
 
 ---
 
