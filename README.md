@@ -71,8 +71,10 @@ we discuss the approach, split the work and review each other. What that looks l
 - **[Moodle Deadlines](https://github.com/DanielDzh/moodle-deadlines)** — every assignment
   from every Moodle course on one page, from the most urgent to the furthest away: days-left
   counters, "burning" deadlines, real submission status, course filters. A static site that
-  talks to Moodle straight from the browser, no backend.
-  *React 19 · TypeScript · Vite · Moodle Web Services · Vitest · Playwright · Cloudflare*
+  talks to Moodle straight from the browser, plus optional Telegram reminders (a Cloudflare
+  Worker with a database) that ping you 24 h and 3 h before a deadline.
+  *React 19 · TypeScript · Vite · Moodle Web Services · Cloudflare Workers + D1 · grammY · Vitest · Playwright*
+  **[→ Live site](https://moodle-dedlainy.tinyapp.workers.dev)**
 
 ---
 
